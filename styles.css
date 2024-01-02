@@ -1,0 +1,75 @@
+.navbar-brand {
+    font-size: 30px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, rgba(19, 202, 19, 0.708), lightgreen, rgba(0, 255, 255, 0.21));
+}
+
+.dropdown-item img {
+    height: 50px;
+    width: 50px;
+}
+
+.movie-space {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.movie-space > div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.movie-search input {
+    width: 40%;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+.movie-content {
+    margin-top: 25px;
+}
+
+.content-header {
+    display: grid;
+    grid-template-areas: 
+    "img div";
+}
+
+
+.content-header img {
+    grid-area: img;
+    height: 175px;
+    width: 150px;
+}
+
+.content-header > div {
+    grid-area: div;
+    height: 175px;
+    margin-left: 30px;
+}
+
+.content-header > div h1 {
+    font-size: 25px;
+}
+
+.content-header > div p {
+    width: 70%;
+}
+
+.content-body {
+    margin-top: 50px;
+}
+
+.content-body > div{
+    margin-top: 10px;
+}
